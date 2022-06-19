@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.titlebar {
+    background-color: rgb(39, 39, 39);
+    
+}
+
+.titlebar h1{
+    color: antiquewhite;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 800;
+    padding-top: 20px ;
+}
+
+.titlebar h1 b{
+    color: rgb(255, 4, 4);
+    font-size: 80px;
+}
+
+.menubar {
+    padding : 20px 10px;
+    justify-content:space-evenly;
+    background-color: rgb(39, 39, 39);
+}
+.menubar li{
+    padding: 0px 30px;
+}
+
+.menubar a{
+    color :antiquewhite;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+@media screen and (min-width: 1550px)
+{
+    .titlebar h1{
+        font-size: 2.5vw;
+    }
+    .titlebar h1 b{
+        font-size: 4.5vw;
+    }
+    .menubar a{
+        font-size: 1.5vw;
+    }
+    
+
+}

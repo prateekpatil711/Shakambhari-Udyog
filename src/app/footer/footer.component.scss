@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer{
+    padding: 30px;
+    background-color: rgb(39, 39, 39);
+}
+
+.name{
+    
+    padding: 10px 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+.name h3 b{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+}
+
+.menubar {
+    padding : 10px 10px;
+    justify-content:space-around;
+    background-color: rgb(39, 39, 39);
+    
+}
+.menubar li{
+    padding: 5px 30px;
+}
+
+.menubar a{
+    color :aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+@media screen and (min-width: 1550px){
+    .footer{
+        padding: 30px;
+        background-color: rgb(39, 39, 39);
+    }
+    
+    .name{
+        
+        padding: 30px 20px;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .name h3{
+        font-size:2vw;
+    }
+    .name h3 b{
+        font-family: 'Libre Baskerville', serif;
+        font-size: 3.5vw;
+        color: rgb(255, 0, 0);
+    }
+    .name p{
+        font-size:1.2vw;
+    }
+    
+    .menubar {
+        padding : 10px 10px;
+        justify-content:space-around;
+        background-color: rgb(39, 39, 39);
+        
+    }
+    .menubar li{
+        padding: 5px 30px;
+    }
+    
+    .menubar a{
+        color :aliceblue;
+        font-size: 1.4vw;
+        font-weight: 500;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
